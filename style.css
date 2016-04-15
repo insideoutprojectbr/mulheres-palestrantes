@@ -109,6 +109,9 @@ header h1 {
 
 .loc {
     margin: 5% 0;
+    position: absolute;
+    bottom: 13%;
+    width: 88%;
 }
 
 .card .location {
@@ -116,6 +119,8 @@ header h1 {
     font-weight: 100;
     text-align: center;
     display: block;
+    text-align: center;
+    width: 100%;
 }
 
 .card .photo {
