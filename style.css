@@ -9,22 +9,46 @@ body {
     background: #f8f8f8;
     padding-bottom: 140px;
 }
-
+.section {
+    widows: 100%;
+}
+.content {
+    width: 80%;
+}
+.content-header {
+    display: flex;
+    align-items: center;
+    padding: 0.5% 0;
+}
+header {
+    text-align: center;
+    width: 100%;
+}
 header, footer {
     background-color: #cc0066;
     color: #fff;
 }
-
-header {
-    text-align: center;
-    width: 100%;
-    padding: 2rem;
+/* LOGO */
+.logo {
+    width: 4%;
+    float: left;
+    margin: 0 0 0 0;
 }
-
+.logo img {
+    max-width: 100%;
+}
+/*TÍTULO DO HEADER*/
 header h1 {
-    text-shadow: 2px 2px #861028;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 15pt;
+    text-align: left;
+    position: relative;
+    margin: 0 0 0 1%;
+    float: left;
+    display: block;
+    width: 24%;
 }
-
 .contribute {
     position: relative;
     background-color: #f8f8f8;
@@ -41,11 +65,6 @@ header h1 {
 
 .contribute a:hover {
     color: #333;
-}
-
-.main {
-    margin: 1rem;
-    text-align: center;
 }
 
 .search-form {
@@ -73,25 +92,37 @@ header h1 {
     width: 270px;
     height: 370px;
     overflow: hidden;
+    position: relative;
 }
 
 .card h3 {
     color: #cc0066;
     overflow: hidden;
     margin: 0.5rem 0;
+    text-align: center;
+    font-weight: 500;
 }
 
 .card img {
     border-radius: 50%;
 }
 
+.about {
+    margin: 5% 0;
+}
+
 .card .location {
-    color: #666;
+    color: #9E9E9E;
+    font-weight: 100;
+    text-align: center;
+    display: block;
 }
 
 .card .photo {
     height: 80px;
     width: 80px;
+    margin: 0 auto;
+    display: block;
 }
 
 footer {
@@ -110,11 +141,17 @@ footer img {
     width: 29px;
     display: inline;
 }
+.social {
+    position: absolute;
+    bottom: 0;
+    width: 88%;
+}
 
-ul.social-media {
+.social-media {
     margin-bottom: 1.5rem;
     padding: 0.5rem 0 0;
     list-style-type: none;
+    text-align: center;
 }
 
 ul.social-media li {
@@ -133,11 +170,11 @@ ul.social-media li.hidden {
 }
 
 ul.tags {
-    height: 120px;
     list-style-type: none;
     padding: 0;
     margin: 0.5rem;
     overflow: hidden;
+    text-align: center;
 }
 
 ul.tags li {
