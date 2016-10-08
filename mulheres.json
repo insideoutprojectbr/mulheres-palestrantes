@@ -159,6 +159,7 @@
         {"name":"Vanessa Me Tonini","interests":["Métodos Ágeis","Scrum","Agilidade","Marialab","Acessibilidade","FrontEnd","Git","Magento"],"location":"São Paulo/SP","photo":null,"email":"vanessametonini@gmail.com","linkedin":"vanessametonini","github":"vanessametonini","twitter":"vanessametonini","fb":"vanessametonini"},
         {"name":"Viviane Vilella","interests":["E-commerce"],"location":"São Paulo/SP","photo":null,"email":null,"linkedin":null,"github":null,"twitter":null,"fb":null},
         {"name":"Yanne Moreira","interests":["Wordpress", "FrontEnd", "Design", "Interface Design", "UX Design"],"location":"Curitiba/PR","photo":null,"email":"yanne.b.moreira@gmail.com","linkedin":"yannemoreira","github":"riopse","twitter":null,"fb":null},
-        {"name":"Yasodara Córdova","interests":["Web", "Semantic Web", "Data", "Open Data", "Datavis", "UX Design"],"location":"São Paulo/SP","photo":null,"email":"yasodara.cordova@gmail.com","linkedin":"yasodara","github":"yaso","twitter":"yaso","fb":null}
+        {"name":"Yasodara Córdova","interests":["Web", "Semantic Web", "Data", "Open Data", "Datavis", "UX Design"],"location":"São Paulo/SP","photo":null,"email":"yasodara.cordova@gmail.com","linkedin":"yasodara","github":"yaso","twitter":"yaso","fb":null},
+        {"name":"Ronaiza Cardoso","interests":["Web", "Programadora PHP", "Git", "Laravel"],"location":"Brasilia/DF","photo":"https://s.gravatar.com/avatar/f45e8318bf829e33e34c1b8b10e2cb1d?s=80","email":"ronaizacarda@gmail.com","linkedin":"ronaiza-cardoso-2a20b47b","github":"yesroh","twitter":"ronaizacard","fb":null}
       ]
 }
