@@ -72,6 +72,12 @@ header h1 {
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
 }
 
+.cards {
+  column-width: 270px;
+  -moz-column-width: 270px;
+  -webkit-column-width: 270px;
+}
+
 .card {
     background: #fff;
     border: solid 1px #eee;
@@ -81,7 +87,7 @@ header h1 {
     margin: 1.5rem 1rem;
     padding: 1.5rem 1rem;
     width: 270px;
-    height: 370px;
+    /*height: 370px;*/
     vertical-align: top;
     overflow: hidden;
 }
@@ -143,7 +149,7 @@ ul.social-media li.hidden {
 }
 
 ul.tags {
-    height: 120px;
+    /*height: 120px;*/
     list-style-type: none;
     padding: 0;
     margin: 0.5rem;
