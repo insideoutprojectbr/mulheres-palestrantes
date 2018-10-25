@@ -39,11 +39,11 @@ header h1 {
 
 .contribute {
     font-size: 0.9em;
-    color: #333;
+    color: #fff;
 }
 
 .contribute:hover {
-    color: #000;
+    color: #pink;
 }
 
 .fork-me {
