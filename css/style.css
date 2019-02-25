@@ -260,6 +260,23 @@ ul.tags {
     padding: 0 0 10px;
     margin: 0.5rem;
     overflow-y: auto;
+    /*Estilo de scrollbar para Firefox*/
+    scrollbar-width: thin;
+    scrollbar-color: #cc0066 #fff; 
+}
+
+ul.tags::-webkit-scrollbar {
+  width: 5px;
+}
+ul.tags::-webkit-scrollbar-track {
+  background: #EBDCE1;
+  border-left: 0 solid #fff;
+  border-right: 5px solid #fff;
+}
+ul.tags::-webkit-scrollbar-thumb {
+  background: #cc0066;
+  border-left: 0 solid #fff;
+  border-right: 5px solid transparent;
 }
 
 ul.tags li {
