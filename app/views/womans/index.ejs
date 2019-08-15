@@ -1,0 +1,39 @@
+<%- include ../template/header.ejs %>
+        <main class="main" id="main">
+            <div class="headline">
+                <p>Procurando mulheres para palestrar em seu evento?</p>
+                <h2>O <strong>Mulheres Palestrantes</strong> é uma lista de mulheres que falam sobre assuntos relacionados a programação, design, empreendedorismo e tecnologia num geral.</h2>
+            </div>
+
+            <p>Hoje temos um total de <span class="counter"></span> mulheres cadastradas.</p>
+
+            <form action="#" class="search-form" role="search">
+                <label for="search" class="sr-only">Pesquisar</label>
+                <input class="search" type="text" placeholder="Busque por nome, cidade ou tag" id="search" autocomplete="on" autofocus>
+            </form>
+
+            <div id="speakers-mention-tweet" style="display: none">Entre em contato com estas palestrantes via Twitter: <span class="twitter-button"></span></div>
+
+            <article class="card" itemscope itemtype="http://schema.org/Person">
+                <img src="" class="photo" alt="" itemprop="image" onerror="this.onerror = null; this.src='http://insideoutproject.xyz/mulheres-palestrantes/img/placeholder-female.jpg';">
+                <h3 itemprop="name"></h3>
+                <h4 class="sr-only">Área de interesse para palestras</h4>
+                <ul class="tags">
+                    <li></li>
+                </ul>
+                <div class="after-tags">
+                    <p class="location" itemprop="homeLocation"></p>
+                    <ul class="social-media">
+                        <li class="fb"><a target="_blank"><i aria-label="Facebook" class="fa fa-facebook-square fa-2x"></i></a></li>
+                        <li class="twitter"><a target="_blank"><i aria-label="Twitter" class="fa fa-twitter-square fa-2x"></i></a></li>
+                        <li class="github"><a target="_blank"><i aria-label="GitHub" class="fa fa-github-square fa-2x"></i></a></li>
+                        <li class="behance"><a target="_blank"><i aria-label="Behance" class="fa fa-behance-square fa-2x"></i></a></li>
+                        <li class="linkedin"><a target="_blank"><i aria-label="Linkedin" class="fa fa-linkedin-square fa-2x"></i></a></li>
+                        <li class="site"><a target="_blank"><i aria-label="Link externo" class="fa fa-external-link-square fa-2x"></i></a></li>
+                    </ul>
+                </div>
+            </article>
+        </main>
+    <%- include ../template/footer.ejs %>
+<%- include ../template/scripts.ejs %>
+

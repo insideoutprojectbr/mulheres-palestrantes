@@ -1,0 +1,47 @@
+<%- include ../template/header.ejs %>
+    <body itemscope itemtype="http://schema.org/WebPage">
+        <a href="#main" accesskey="1" class="sr-only">Ir para conteúdo principal (Alt + 1)</a>
+
+        <a href="https://github.com/insideoutprojectbr/mulheres-palestrantes">
+            <img class="fork-me" src="img/fork-me.png" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png">
+        </a>
+
+        <main class="main" id="main">
+            <div class="headline">
+                <p>Quer ter seu nome na lista? Agora ficou mais fácil, basta cadastrar-se!</p>
+            </div>
+
+            <form class="search-form" id="register-form">
+                <input class="search" type="text" required placeholder="Nome completo" autocomplete="on" autofocus>
+                <input class="search" type="text" placeholder="Cidade/UF que reside (Exemplo: Goiania/GO, São Paulo/SP, Guarapuava/PR)" autocomplete="on">
+                <input class="search" type="text" placeholder="URL da sua foto" autocomplete="on">
+                <input class="search" type="email" required placeholder="Seu e-mail" autocomplete="on">
+                <input class="search" type="text" placeholder="Seu usuário no linkedin (se possuir)" autocomplete="on">
+                <input class="search" type="text" placeholder="Seu usuário no behance (se possuir)" autocomplete="on">
+                <input class="search" type="text" placeholder="Seu usuário no github (se possuir)" autocomplete="on">
+                <input class="search" type="text" placeholder="Seu usuário no twitter (se possuir)" autocomplete="on">
+                <input class="search" type="text" placeholder="Seu usuário no facebook (se possuir)" autocomplete="on">
+                <input class="search" type="text" placeholder="Link do seu site (se possuir)" autocomplete="on">
+                <div class="row">
+                    <div class="col-md-9">
+                        <input class="search half" type="text" placeholder="Suas qualidades?" autocomplete="on">
+                    </div>
+                    <div class="col-md-3">
+                        <button type="button" id="register-new-quality">+</button>
+                    </div>
+                </div>
+
+                <div id="qualitys-list"></div>
+
+                <button type="submit" class="search">Enviar!</button>
+
+            </form>
+        </main>
+    <%- include ../template/footer.ejs %>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+    crossorigin="anonymous"></script>
+    <script src="js/register.js"></script>
+    <%- include ../template/scripts.ejs %>
+
