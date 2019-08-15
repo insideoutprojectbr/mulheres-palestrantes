@@ -99,6 +99,7 @@ header h1 {
 }
 
 .search {
+    margin: 20px 0 20px 0;
     width: 100%;
     padding: 0.8rem 1rem;
     font-size: 0.9rem;
