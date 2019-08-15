@@ -26,5 +26,11 @@
   "homepage": "https://github.com/insideoutprojectbr/mulheres-palestrantes#readme",
   "devDependencies": {
     "http-server": "^0.11.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security"
   }
 }
