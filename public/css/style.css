@@ -109,6 +109,69 @@ header h1 {
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
 }
 
+.half{
+    display: inline-block;
+}
+
+#register-new-quality{
+    background-color: #f284ff;
+    display: inline-block;
+    color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 0.3rem;
+    font-size: 32px;
+    height: 46px;
+    -webkit-transition: ease-in-out .2s;
+	-o-transition: ease-in-out .2s;
+    transition: ease-in-out .2s;
+    width: 100%;
+    margin: 20px 0 20px 0;
+}
+
+#qualitys-list{
+    text-align: left;
+}
+
+.quality-item{
+    height: 45px;
+    width: auto;
+    border: 1px solid #ddd;
+    border-radius: 0.3rem;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    padding: 0.8rem 1rem;
+    display: inline-block;
+}
+
+.quality-item h3{
+    color: #555;
+    font-size: 0.9rem;
+    display: inline-block;
+}
+
+.quality-item span{
+    margin-left: 12px;
+    cursor: pointer;
+    color: #ffffff;
+    background: #f284ff;
+    border-radius: 2px;
+    padding: 0 7px 0 7px;
+    -webkit-transition: ease-in-out .2s;
+	-o-transition: ease-in-out .2s;
+    transition: ease-in-out .2s;
+}
+
+.quality-item span:hover{
+    color: #f284ff;
+    background: #ffffff;
+    outline: #f284ff 1px solid;
+}
+
+#register-new-quality:hover{
+    color: #f284ff;
+    border: 1px solid #f284ff;
+    background-color: #fff;
+}
+
 .card {
     background: #fff;
     border: solid 1px #eee;

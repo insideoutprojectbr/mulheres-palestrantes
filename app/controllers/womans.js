@@ -4,5 +4,9 @@ module.exports = app => {
     	res.render('womans/index')
     }
 
-    return { index }
+    const register = (req, res) => {
+        res.render('womans/new')
+    }
+
+    return { index, register }
 }
