@@ -34,6 +34,16 @@ header {
     border-bottom: 4px solid #861028;
 }
 
+.botao-cadastro {
+    margin-top: 1.25rem;
+    color: #000;
+}
+
+.botao-cadastro a { 
+    text-decoration: none;
+}
+
+
 header h1 {
     text-shadow: 2px 2px #861028;
 }
